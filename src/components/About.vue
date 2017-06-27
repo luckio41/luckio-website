@@ -1,18 +1,24 @@
 <template>
-  <div class="hello">
-    <h6>{{ msg }}</h6>
+  <div class="about">
+    <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'about',
   data () {
     return {
-      msg: 'works!'
+      msg: 'Acerca de'
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+h1, h2 {
+  font-weight: normal;
+  color: red;
+}
+</style>

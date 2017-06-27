@@ -11,12 +11,35 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(assets/stars.gif)
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+}
+h1 {
+  color: yellow;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+.menu-table {
+  margin: 0 auto;
+}
+.menu-table, .menu-table td {
+  
+}
+table, tr, td {
+    border-color: white;
+    border-style: ridge;
+    border-width: thin;
+}
+.menu-table td a {
+  color: blue;
+  padding: 1rem;
 }
 </style>
